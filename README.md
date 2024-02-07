@@ -1,4 +1,4 @@
-# sysapp
+# sysappv2
 
 Installation
 ```sh
@@ -28,4 +28,8 @@ DB_PORT=3306
 DB_DATABASE=sysappv2
 DB_USERNAME=root
 DB_PASSWORD=
+```
+Create tables
+```sh
+php artisan migrate
 ```
