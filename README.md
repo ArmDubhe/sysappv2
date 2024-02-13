@@ -28,7 +28,7 @@ Create tables
 ```sh
 php artisan migrate
 ```
-**Debugbar**
+#### Debugbar
 Get and install the [debugger bar](https://packagist.org/packages/barryvdh/laravel-debugbar)
 
 Inside the file `config/app.php` and setup th econfoguration (check documentation)
