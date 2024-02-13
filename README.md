@@ -34,11 +34,11 @@ Get and install the
 
 Inside the file `config/app.php` and setup th econfoguration (check documentation)
 
-ServiceProvider
+`ServiceProvider`
 ```sh
 Barryvdh\Debugbar\ServiceProvider::class,
 ```
-Facades
+`Facades`
 ```sh
 'Debugbar' => Barryvdh\Debugbar\Facades\Debugbar::class,
 ```
