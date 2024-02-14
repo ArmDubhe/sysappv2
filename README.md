@@ -41,7 +41,7 @@ Barryvdh\Debugbar\ServiceProvider::class,
 ```sh
 'Debugbar' => Barryvdh\Debugbar\Facades\Debugbar::class,
 ```
-`Copy the package config to the local config`
+`Copy (publish) the package config to the local config`
 ```sh
 php artisan vendor:publish --provider="Barryvdh\Debugbar\ServiceProvider"
 ```
